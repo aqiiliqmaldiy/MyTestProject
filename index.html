@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tanam Plus+ | Professional Investment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body data-theme="light">
+    <div id="app">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <path d="M12 2v20M2 12h20L12 2z" />
+                    </svg>
+                </div>
+                TANAM PLUS
+            </div>
+            <div style="display: flex; gap: 15px; align-items: center;">
+                <div id="themeToggle" style="cursor: pointer; opacity: 0.7;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 5a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
+                    </svg>
+                </div>
+                <div
+                    style="background: var(--border); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem;">
+                    FA</div>
+            </div>
+        </header>
+
+        <!-- Home View -->
+        <main id="home" class="view active">
+            <div class="card-premium">
+                <p class="card-title">Total Balance</p>
+                <h2 class="card-value">Rp <span id="totalBalanceDisplay">100,000,000</span></h2>
+                <div class="card-change">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <polyline points="18 15 12 9 6 15" />
+                    </svg>
+                    2.4% Today
+                </div>
+            </div>
+
+            <section style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 30px;">
+                <div style="text-align: center;">
+                    <div class="service-icon" onclick="openInvestModal()">➕</div>
+                    <p style="font-size: 0.7rem; font-weight: 600; opacity: 0.8;">Deposit</p>
+                </div>
+                <div style="text-align: center;">
+                    <div class="service-icon">📊</div>
+                    <p style="font-size: 0.7rem; font-weight: 600; opacity: 0.8;">Insights</p>
+                </div>
+                <div style="text-align: center;">
+                    <div class="service-icon">📅</div>
+                    <p style="font-size: 0.7rem; font-weight: 600; opacity: 0.8;">Auto</p>
+                </div>
+                <div style="text-align: center;">
+                    <div class="service-icon">🛡️</div>
+                    <p style="font-size: 0.7rem; font-weight: 600; opacity: 0.8;">History</p>
+                </div>
+            </section>
+
+            <h3 style="margin-bottom: 15px; font-size: 1.1rem; font-weight: 800;">Top Performers</h3>
+            <div id="topPerformers" class="list-container">
+                <!-- Injected via JS -->
+            </div>
+        </main>
+
+        <!-- Impact View -->
+        <main id="dashboard" class="view">
+            <h2 style="margin-bottom: 10px; font-weight: 800;">Market Trends</h2>
+            <canvas id="performanceChart"></canvas>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px;">
+                <div class="list-item" style="flex-direction: column; align-items: flex-start;">
+                    <p style="color: var(--text-dim); font-size: 0.75rem;">Trees Funded</p>
+                    <p style="font-size: 1.4rem; font-weight: 800; color: var(--secondary);">1,240</p>
+                </div>
+                <div class="list-item" style="flex-direction: column; align-items: flex-start;">
+                    <p style="color: var(--text-dim); font-size: 0.75rem;">CO2 Offset</p>
+                    <p style="font-size: 1.4rem; font-weight: 800; color: #3b82f6;">457.2t</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Portfolio View -->
+        <main id="funds" class="view">
+            <h2 style="margin-bottom: 20px; font-weight: 800;">My Portfolio</h2>
+            <div id="portfolioList">
+                <!-- Injected via JS -->
+            </div>
+        </main>
+
+        <!-- Profile View -->
+        <main id="profile" class="view">
+            <div style="text-align: center; margin: 20px 0 40px;">
+                <div
+                    style="width: 100px; height: 100px; background: var(--secondary); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: white; border: 4px solid var(--border);">
+                    FA</div>
+                <h3 style="font-weight: 800;">Falcon Aqiil</h3>
+                <p style="color: var(--text-dim); font-size: 0.9rem;">Diamond Investor • Indonesia</p>
+            </div>
+
+            <div class="list-item" style="justify-content: space-between;">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <span style="font-size: 1.2rem;">🔒</span>
+                    <p style="font-weight: 600;">Security & Privacy</p>
+                </div>
+                <span>›</span>
+            </div>
+            <div class="list-item" style="justify-content: space-between;">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <span style="font-size: 1.2rem;">💳</span>
+                    <p style="font-weight: 600;">Payment Methods</p>
+                </div>
+                <span>›</span>
+            </div>
+            <div class="list-item" style="justify-content: space-between; color: #ef4444; border-color: #fee2e2;">
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <span style="font-size: 1.2rem;">🚪</span>
+                    <p style="font-weight: 600;">Sign Out</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Investment Modal -->
+        <div id="investModal" class="modal-overlay">
+            <div class="modal-content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                    <h3 style="font-weight: 800;">Quick Invest</h3>
+                    <div onclick="closeInvestModal()" style="cursor:pointer; opacity: 0.5;">✕</div>
+                </div>
+                <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 10px;">Select Amount (Rp)</p>
+                <h2 id="investAmountDisplay" style="font-size: 2.5rem; font-weight: 800; margin-bottom: 20px;">Rp
+                    5,000,000</h2>
+                <input type="range" id="investSlider" min="100000" max="50000000" step="100000" value="5000000"
+                    style="width: 100%; height: 6px; background: var(--border); border-radius: 5px; appearance: none; outline: none; margin-bottom: 30px;">
+                <button id="confirmInvestBtn"
+                    style="width: 100%; background: var(--secondary); color: white; border: none; padding: 18px; border-radius: 20px; font-weight: 800; font-size: 1rem; cursor: pointer; transition: transform 0.2s;">Confirm
+                    Investment</button>
+            </div>
+        </div>
+
+        <nav>
+            <div class="nav-item active" data-view="home">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                    <polyline points="9 22 9 12 15 12 15 22" />
+                </svg>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" data-view="dashboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
+                    <path d="M22 12A10 10 0 0 0 12 2v10z" />
+                </svg>
+                <span>Impact</span>
+            </div>
+            <div class="invest-fab" onclick="openInvestModal()">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <line x1="12" y1="5" x2="12" y2="19" />
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+            </div>
+            <div class="nav-item" data-view="funds">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect width="20" height="14" x="2" y="5" rx="2" />
+                    <line x1="2" y1="10" x2="22" y2="10" />
+                </svg>
+                <span>Wealth</span>
+            </div>
+            <div class="nav-item" data-view="profile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                </svg>
+                <span>Account</span>
+            </div>
+        </nav>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
