@@ -1,7 +1,4 @@
 qfddccccc# MyTestProject
-fdfdas
-dfdfdf
-sss
-xcxcxcq
+d
 df
 qq
