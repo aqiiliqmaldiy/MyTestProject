@@ -861,3 +861,7 @@
 [2026-03-08 14:17:46] ISSUE CREATED: Performance: Optimize Dask loading speed
 [2026-03-08 14:17:47] ISSUE CREATED: Documentation: Add SHAP value interpretation guide
 [2026-03-08 14:19:13] REVIEW SUBMITTED ON PR #3894
+[2026-03-08 14:23:16] ISSUE CREATED: Model: Experiment with CatBoost as a baseline
+[2026-03-08 14:23:23] REVIEW SUBMITTED ON PR #3877
+[2026-03-08 14:23:30] REVIEW SUBMITTED ON PR #12
+[2026-03-08 14:25:19] ISSUE CREATED: Bug: Hyperparameter grid search failing on large datasets
