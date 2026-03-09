@@ -10994,3 +10994,19 @@
 }
 [2026-03-09 14:31:19] PR BRANCH: Created dev/feature-set-1330-1773037879 for Advanced Feature Engineering Pipeline
 [2026-03-09 14:31:21] COMMIT: Added logging for validation metrics (Sprint Pulse #1558) [2026-03-09 14:31:21]
+[2026-03-09 14:31:21] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:31:23] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:31:30] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:31:34] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #1559) [2026-03-09 14:31:34]
