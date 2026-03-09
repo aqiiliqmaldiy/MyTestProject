@@ -16580,3 +16580,24 @@
 }
 [2026-03-09 15:56:34] PR BRANCH: Created dev/feature-set-2223-1773042994 for Advanced Feature Engineering Pipeline
 [2026-03-09 15:56:37] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #1993) [2026-03-09 15:56:37]
+[2026-03-09 15:56:37] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:56:38] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:56:44] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:56:45] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:56:53] PR BRANCH: Created dev/feature-set-1946-1773043013 for Add pseudo-labeling strategy for test set
