@@ -13681,3 +13681,14 @@
 }
 [2026-03-09 15:13:03] COMMIT: Added logging for validation metrics (Sprint Pulse #1713) [2026-03-09 15:13:03]
 [2026-03-09 15:13:09] PR BRANCH: Created dev/feature-set-1768-1773040389 for Add pseudo-labeling strategy for test set
+[2026-03-09 15:13:12] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:13:13] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:13:20] PR BRANCH: Created dev/feature-set-1714-1773040400 for Optimize data loader with Dask for scalability
