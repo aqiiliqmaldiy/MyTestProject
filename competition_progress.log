@@ -13078,3 +13078,14 @@
 [2026-03-09 15:02:59] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #1685) [2026-03-09 15:02:59]
 [2026-03-09 15:02:59] PR BRANCH: Created dev/feature-set-1661-1773039779 for Advanced Feature Engineering Pipeline
 [2026-03-09 15:03:01] COMMIT: Added logging for validation metrics (Sprint Pulse #1722) [2026-03-09 15:03:01]
+[2026-03-09 15:03:02] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:03:07] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:03:11] PR BRANCH: Created dev/feature-set-1686-1773039791 for Implementing TTA (Test Time Augmentation)
