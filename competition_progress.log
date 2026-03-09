@@ -5870,3 +5870,9 @@
 }
 [2026-03-09 12:47:31] PR BRANCH: Created dev/feature-set-494-1773031651 for Advanced Feature Engineering Pipeline
 [2026-03-09 12:47:32] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1150) [2026-03-09 12:47:32]
+[2026-03-09 12:47:34] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:47:35] PR BRANCH: Created dev/feature-set-1114-1773031655 for Ensemble Model: XGBoost + LightGBM + CatBoost
