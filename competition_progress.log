@@ -10241,3 +10241,14 @@
 }
 [2026-03-09 14:19:47] PR BRANCH: Created dev/feature-set-1209-1773037186 for Advanced Feature Engineering Pipeline
 [2026-03-09 14:19:48] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1461) [2026-03-09 14:19:48]
+[2026-03-09 14:19:49] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:19:52] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:19:54] COMMIT: Cleaned up outliers in training set (Sprint Pulse #1211) [2026-03-09 14:19:54]
