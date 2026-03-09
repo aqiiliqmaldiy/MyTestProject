@@ -6598,3 +6598,14 @@
   "status": "401"
 }
 [2026-03-09 12:57:53] PR BRANCH: Created dev/feature-set-1166-1773032273 for Add pseudo-labeling strategy for test set
+[2026-03-09 12:57:56] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:57:56] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:58:00] PR BRANCH: Created dev/feature-set-611-1773032280 for Add pseudo-labeling strategy for test set
