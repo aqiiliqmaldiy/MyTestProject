@@ -13394,3 +13394,14 @@
 }
 [2026-03-09 15:08:12] PR BRANCH: Created dev/feature-set-1715-1773040092 for Advanced Feature Engineering Pipeline
 [2026-03-09 15:08:16] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1749) [2026-03-09 15:08:16]
+[2026-03-09 15:08:16] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:08:25] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:08:35] PR BRANCH: Created dev/feature-set-1720-1773040115 for Ensemble Model: XGBoost + LightGBM + CatBoost
