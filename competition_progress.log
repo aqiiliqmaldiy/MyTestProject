@@ -20405,3 +20405,14 @@
 }
 [2026-03-09 16:51:21] COMMIT: Implemented stratified k-fold cross-validation (Sprint Pulse #2225) [2026-03-09 16:51:21]
 [2026-03-09 16:51:21] PR BRANCH: Created dev/feature-set-2793-1773046281 for Advanced Feature Engineering Pipeline
+[2026-03-09 16:51:22] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:51:25] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:51:27] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #2794) [2026-03-09 16:51:27]
