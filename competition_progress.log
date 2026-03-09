@@ -9186,3 +9186,9 @@
   "status": "401"
 }
 [2026-03-09 14:03:18] COMMIT: Added data normalization to preprocessing pipeline (Sprint Pulse #1412) [2026-03-09 14:03:18]
+[2026-03-09 14:03:24] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:03:26] PR BRANCH: Created dev/feature-set-1377-1773036206 for Ensemble Model: XGBoost + LightGBM + CatBoost
