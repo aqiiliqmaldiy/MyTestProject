@@ -4946,3 +4946,24 @@
   "status": "401"
 }
 [2026-03-09 12:33:31] PR BRANCH: Created dev/feature-set-1077-1773030810 for Advanced Feature Engineering Pipeline
+[2026-03-09 12:33:32] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:33:33] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:33:34] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:33:38] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:33:41] PR BRANCH: Created dev/feature-set-331-1773030820 for Optimize data loader with Dask for scalability
