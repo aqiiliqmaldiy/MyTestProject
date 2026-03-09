@@ -14077,3 +14077,14 @@
 }
 [2026-03-09 15:19:24] PR BRANCH: Created dev/feature-set-1837-1773040764 for Add pseudo-labeling strategy for test set
 [2026-03-09 15:19:25] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #1746) [2026-03-09 15:19:25]
+[2026-03-09 15:19:27] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:19:27] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:19:42] COMMIT: Added logging for validation metrics (Sprint Pulse #1840) [2026-03-09 15:19:42]
