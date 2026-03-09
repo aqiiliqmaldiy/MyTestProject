@@ -3990,3 +3990,19 @@
   "status": "401"
 }
 [2026-03-09 12:18:01] PR BRANCH: Created dev/feature-set-155-1773029881 for Add pseudo-labeling strategy for test set
+[2026-03-09 12:18:05] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:18:05] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:18:05] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:18:11] PR BRANCH: Created dev/feature-set-156-1773029891 for Advanced Feature Engineering Pipeline
