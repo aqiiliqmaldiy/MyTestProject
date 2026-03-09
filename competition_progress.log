@@ -7065,3 +7065,19 @@
   "status": "401"
 }
 [2026-03-09 13:05:32] PR BRANCH: Created dev/feature-set-684-1773032732 for Add pseudo-labeling strategy for test set
+[2026-03-09 13:05:34] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:05:35] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:05:38] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:05:42] PR BRANCH: Created dev/feature-set-686-1773032742 for Optimize data loader with Dask for scalability
