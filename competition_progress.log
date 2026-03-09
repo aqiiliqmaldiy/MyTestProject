@@ -2336,3 +2336,6 @@
 [2026-03-09 10:46:45] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
 [2026-03-09 10:46:45] SUCCESS: Issue: Validation Gap: Discrepancy between local CV and leaderboard created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/326
 [2026-03-09 10:46:50] COMMIT: Updated submission script for test set predictions (Sprint Pulse #599) [2026-03-09 10:46:50]
+[2026-03-09 10:46:55] SUCCESS: Issue: Model Selection: Try TabNet for categorical features created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/327
+[2026-03-09 10:47:02] SUCCESS: Issue: Model Selection: Try TabNet for categorical features created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/328
+[2026-03-09 10:47:08] COMMIT: Updated submission script for test set predictions (Sprint Pulse #600) [2026-03-09 10:47:08]
