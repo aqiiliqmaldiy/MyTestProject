@@ -20300,3 +20300,14 @@
 }
 [2026-03-09 16:49:47] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #2777) [2026-03-09 16:49:47]
 [2026-03-09 16:49:49] PR BRANCH: Created dev/feature-set-2267-1773046189 for Add pseudo-labeling strategy for test set
+[2026-03-09 16:49:52] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:49:54] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:49:58] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #2268) [2026-03-09 16:49:58]
