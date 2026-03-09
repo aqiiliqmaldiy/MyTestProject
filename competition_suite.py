@@ -145,7 +145,7 @@ def review_existing_pr():
 
 def code_review_optimized_suite():
     log_event("REVIEW-OPTIMIZED COMPETITION SIMULATION STARTING (Sustainable Version)")
-    print("Action Plan: PR+Review (25%), Issue (25%), Standalone Review (25%), Commit (25%)")
+    print("Action Plan: Issue (30%), PR (30%), Review (30%), Commit (10%)")
     print("Press Ctrl+C to stop.")
     i = 0
     while True:
@@ -161,17 +161,17 @@ def code_review_optimized_suite():
             i += 1
             print(f"\n--- FAST PULSE #{i} ---")
             roll = random.random()
-            if roll < 0.25:
-                create_pr_and_review(i)
-            elif roll < 0.50:
+            if roll < 0.30:
                 create_issue()
-            elif roll < 0.75:
+            elif roll < 0.60:
+                create_pr_and_review(i)
+            elif roll < 0.90:
                 review_existing_pr()
             else:
                 create_commit(i)
             
-            # SUSTAINABLE: 5 to 15 seconds delay
-            wait = random.randint(5, 15)
+            # FASTER BUT NOT TOO FAST: 2 to 6 seconds delay
+            wait = random.randint(2, 6)
             print(f"Waiting {wait}s for next pulse...")
             time.sleep(wait)
         except KeyboardInterrupt:
