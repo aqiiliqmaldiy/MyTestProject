@@ -4881,3 +4881,14 @@
 }
 [2026-03-09 12:32:26] COMMIT: Cleaned up outliers in training set (Sprint Pulse #315) [2026-03-09 12:32:26]
 [2026-03-09 12:32:26] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1072) [2026-03-09 12:32:26]
+[2026-03-09 12:32:32] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:32:36] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:32:38] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1073) [2026-03-09 12:32:38]
