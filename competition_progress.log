@@ -4543,3 +4543,9 @@
   "documentation_url": "https://docs.github.com/rest",
   "status": "401"
 }
+[2026-03-09 12:26:54] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 12:27:00] PR BRANCH: Created dev/feature-set-256-1773030420 for Ensemble Model: XGBoost + LightGBM + CatBoost
