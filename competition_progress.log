@@ -17719,3 +17719,24 @@
   "status": "401"
 }
 [2026-03-09 16:13:11] PR BRANCH: Created dev/feature-set-2397-1773043991 for Advanced Feature Engineering Pipeline
+[2026-03-09 16:13:14] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:13:15] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:13:19] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:13:19] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:13:21] PR BRANCH: Created dev/feature-set-2399-1773044001 for Add pseudo-labeling strategy for test set
