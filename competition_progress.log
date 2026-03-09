@@ -16853,3 +16853,9 @@
 }
 [2026-03-09 16:00:16] PR BRANCH: Created dev/feature-set-2265-1773043216 for Add pseudo-labeling strategy for test set
 [2026-03-09 16:00:18] COMMIT: Added logging for validation metrics (Sprint Pulse #2012) [2026-03-09 16:00:18]
+[2026-03-09 16:00:19] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:00:19] PR BRANCH: Created dev/feature-set-1965-1773043219 for Ensemble Model: XGBoost + LightGBM + CatBoost
