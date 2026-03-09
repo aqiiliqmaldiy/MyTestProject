@@ -13936,3 +13936,9 @@
 }
 [2026-03-09 15:16:48] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1806) [2026-03-09 15:16:48]
 [2026-03-09 15:16:53] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #1732) [2026-03-09 15:16:53]
+[2026-03-09 15:16:57] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:17:01] PR BRANCH: Created dev/feature-set-1733-1773040620 for Implementing TTA (Test Time Augmentation)
