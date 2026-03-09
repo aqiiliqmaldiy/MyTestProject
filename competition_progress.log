@@ -12621,3 +12621,9 @@
 [2026-03-09 14:56:11] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1648) [2026-03-09 14:56:11]
 [2026-03-09 14:56:16] PR BRANCH: Created dev/feature-set-1591-1773039376 for Advanced Feature Engineering Pipeline
 [2026-03-09 14:56:19] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #1649) [2026-03-09 14:56:19]
+[2026-03-09 14:56:22] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:56:25] PR BRANCH: Created dev/feature-set-1592-1773039385 for Add pseudo-labeling strategy for test set
