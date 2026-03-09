@@ -13317,3 +13317,19 @@
   "status": "401"
 }
 [2026-03-09 15:06:57] PR BRANCH: Created dev/feature-set-1700-1773040017 for Add pseudo-labeling strategy for test set
+[2026-03-09 15:07:01] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:07:03] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:07:06] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:07:12] PR BRANCH: Created dev/feature-set-1704-1773040032 for Ensemble Model: XGBoost + LightGBM + CatBoost
