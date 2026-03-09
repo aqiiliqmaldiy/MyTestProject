@@ -19508,3 +19508,14 @@
 }
 [2026-03-09 16:39:25] PR BRANCH: Created dev/feature-set-2672-1773045565 for Ensemble Model: XGBoost + LightGBM + CatBoost
 [2026-03-09 16:39:28] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #2215) [2026-03-09 16:39:28]
+[2026-03-09 16:39:29] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:39:29] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:39:34] PR BRANCH: Created dev/feature-set-2674-1773045574 for Add pseudo-labeling strategy for test set
