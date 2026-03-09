@@ -12181,3 +12181,9 @@
   "status": "401"
 }
 [2026-03-09 14:49:34] PR BRANCH: Created dev/feature-set-1516-1773038974 for Advanced Feature Engineering Pipeline
+[2026-03-09 14:49:37] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:49:39] PR BRANCH: Created dev/feature-set-1652-1773038979 for Implementing TTA (Test Time Augmentation)
