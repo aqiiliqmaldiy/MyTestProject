@@ -8829,3 +8829,14 @@
   "documentation_url": "https://docs.github.com/rest",
   "status": "401"
 }
+[2026-03-09 13:33:14] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:33:17] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:33:20] PR BRANCH: Created dev/feature-set-967-1773034400 for Ensemble Model: XGBoost + LightGBM + CatBoost
