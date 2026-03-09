@@ -8978,3 +8978,19 @@
 }
 [2026-03-09 13:35:28] COMMIT: Updated LightGBM parameters for better convergence (Sprint Pulse #1355) [2026-03-09 13:35:28]
 [2026-03-09 13:35:44] PR BRANCH: Created dev/feature-set-994-1773034544 for Advanced Feature Engineering Pipeline
+[2026-03-09 13:35:48] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:35:49] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:35:51] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:35:54] PR BRANCH: Created dev/feature-set-1357-1773034554 for Add pseudo-labeling strategy for test set
