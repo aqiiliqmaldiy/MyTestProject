@@ -14195,3 +14195,14 @@
 [2026-03-09 15:21:03] COMMIT: Implemented stratified k-fold cross-validation (Sprint Pulse #1855) [2026-03-09 15:21:03]
 [2026-03-09 15:21:06] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1756) [2026-03-09 15:21:06]
 [2026-03-09 15:21:08] PR BRANCH: Created dev/feature-set-1856-1773040868 for Advanced Feature Engineering Pipeline
+[2026-03-09 15:21:11] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:21:13] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 15:21:13] PR BRANCH: Created dev/feature-set-1757-1773040873 for Add pseudo-labeling strategy for test set
