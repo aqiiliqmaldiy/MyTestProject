@@ -12688,3 +12688,14 @@
 }
 [2026-03-09 14:57:29] PR BRANCH: Created dev/feature-set-1603-1773039448 for Add pseudo-labeling strategy for test set
 [2026-03-09 14:57:29] COMMIT: Added data normalization to preprocessing pipeline (Sprint Pulse #1656) [2026-03-09 14:57:29]
+[2026-03-09 14:57:32] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:57:39] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:57:40] PR BRANCH: Created dev/feature-set-1691-1773039460 for Ensemble Model: XGBoost + LightGBM + CatBoost
