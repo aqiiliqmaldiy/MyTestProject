@@ -10646,3 +10646,14 @@
 }
 [2026-03-09 14:26:14] COMMIT: Added SHAP value plots for model interpretation (Sprint Pulse #1491) [2026-03-09 14:26:14]
 [2026-03-09 14:26:16] PR BRANCH: Created dev/feature-set-1276-1773037576 for Advanced Feature Engineering Pipeline
+[2026-03-09 14:26:18] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:26:21] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:26:24] COMMIT: Added logging for validation metrics (Sprint Pulse #1492) [2026-03-09 14:26:24]
