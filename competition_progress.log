@@ -7133,3 +7133,14 @@
   "status": "401"
 }
 [2026-03-09 13:06:29] PR BRANCH: Created dev/feature-set-1244-1773032789 for Add pseudo-labeling strategy for test set
+[2026-03-09 13:06:32] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:06:32] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:06:39] PR BRANCH: Created dev/feature-set-1211-1773032799 for Implementing TTA (Test Time Augmentation)
