@@ -9406,3 +9406,14 @@
 }
 [2026-03-09 14:06:57] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #1432) [2026-03-09 14:06:57]
 [2026-03-09 14:07:07] PR BRANCH: Created dev/feature-set-1398-1773036427 for Advanced Feature Engineering Pipeline
+[2026-03-09 14:07:10] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:07:10] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 14:07:15] PR BRANCH: Created dev/feature-set-1434-1773036435 for Add pseudo-labeling strategy for test set
