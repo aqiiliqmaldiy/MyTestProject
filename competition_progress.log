@@ -7287,3 +7287,14 @@
   "status": "401"
 }
 [2026-03-09 13:08:56] PR BRANCH: Created dev/feature-set-1257-1773032936 for Add pseudo-labeling strategy for test set
+[2026-03-09 13:08:59] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:09:01] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 13:09:03] PR BRANCH: Created dev/feature-set-1224-1773032942 for Advanced Feature Engineering Pipeline
