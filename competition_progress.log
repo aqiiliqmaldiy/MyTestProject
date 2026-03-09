@@ -20721,3 +20721,9 @@
 }
 [2026-03-09 17:03:47] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #2336) [2026-03-09 17:03:47]
 [2026-03-09 17:03:56] PR BRANCH: Created dev/feature-set-2337-1773047036 for Advanced Feature Engineering Pipeline
+[2026-03-09 17:04:00] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 17:04:23] PR BRANCH: Created dev/feature-set-2339-1773047062 for Add pseudo-labeling strategy for test set
