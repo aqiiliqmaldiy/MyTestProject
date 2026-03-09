@@ -18228,3 +18228,9 @@
   "status": "401"
 }
 [2026-03-09 16:20:04] COMMIT: Added data normalization to preprocessing pipeline (Sprint Pulse #2065) [2026-03-09 16:20:04]
+[2026-03-09 16:20:06] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-09 16:20:11] PR BRANCH: Created dev/feature-set-2471-1773044411 for Advanced Feature Engineering Pipeline
