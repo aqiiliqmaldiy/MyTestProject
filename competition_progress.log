@@ -38431,3 +38431,14 @@
   "status": "401"
 }
 [2026-03-10 12:52:46] PR BRANCH: Created dev/feature-set-3971-1773118366 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 12:52:50] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:52:50] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:52:51] PR BRANCH: Created dev/feature-set-3973-1773118371 for Optimize data loader with Dask for scalability
