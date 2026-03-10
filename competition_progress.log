@@ -28460,3 +28460,9 @@
   "status": "401"
 }
 [2026-03-10 10:46:11] PR BRANCH: Created dev/feature-set-977-1773110771 for Add pseudo-labeling strategy for test set
+[2026-03-10 10:46:14] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:46:15] PR BRANCH: Created dev/feature-set-979-1773110775 for Optimize data loader with Dask for scalability
