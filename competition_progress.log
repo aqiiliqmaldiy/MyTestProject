@@ -36267,3 +36267,9 @@
   "status": "401"
 }
 [2026-03-10 12:12:31] PR BRANCH: Created dev/feature-set-3337-1773115951 for Implementing TTA (Test Time Augmentation)
+[2026-03-10 12:12:34] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:12:34] PR BRANCH: Created dev/feature-set-3338-1773115954 for Ensemble Model: XGBoost + LightGBM + CatBoost
