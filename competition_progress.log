@@ -34721,3 +34721,10 @@
   "status": "401"
 }
 [2026-03-10 11:56:17] PR BRANCH: Created dev/feature-set-2866-1773114977 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 11:56:20] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:56:21] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 11:56:31] PR BRANCH: Created dev/feature-set-2868-1773114991 for Advanced Feature Engineering Pipeline
