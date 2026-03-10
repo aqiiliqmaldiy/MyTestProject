@@ -22211,3 +22211,9 @@
   "status": "401"
 }
 [2026-03-10 08:50:32] PR BRANCH: Created dev/feature-set-429-1773103832 for Add pseudo-labeling strategy for test set
+[2026-03-10 08:50:35] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 08:50:35] PR BRANCH: Created dev/feature-set-430-1773103835 for Advanced Feature Engineering Pipeline
