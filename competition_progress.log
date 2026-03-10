@@ -28370,3 +28370,9 @@
   "status": "401"
 }
 [2026-03-10 10:45:29] PR BRANCH: Created dev/feature-set-947-1773110729 for Advanced Feature Engineering Pipeline
+[2026-03-10 10:45:32] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:45:32] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #948) [2026-03-10 10:45:32]
