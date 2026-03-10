@@ -27586,3 +27586,9 @@
   "status": "401"
 }
 [2026-03-10 10:39:01] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #718) [2026-03-10 10:39:01]
+[2026-03-10 10:39:05] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:39:05] PR BRANCH: Created dev/feature-set-721-1773110345 for Add pseudo-labeling strategy for test set
