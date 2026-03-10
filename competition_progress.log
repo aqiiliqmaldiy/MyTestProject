@@ -27156,3 +27156,6 @@
 [2026-03-10 10:25:18] SUCCESS: Existing PR Review #12 created/updated. URL: https://github.com/aqiiliqmaldiy/Random/pull/12#pullrequestreview-3919292630
 [2026-03-10 10:25:19] SUCCESS: Issue: Optimization: Parallelize preprocessing pipeline created/updated. URL: https://github.com/aqiiliqmaldiy/Random/issues/741
 [2026-03-10 10:25:19] PR BRANCH: Created dev/feature-set-486-1773109519 for Advanced Feature Engineering Pipeline
+[2026-03-10 10:25:28] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 422. Response: {"message":"Validation Failed","errors":[{"resource":"PullRequest","field":"head","code":"invalid"}],"documentation_url":"https://docs.github.com/rest/pulls/pulls#create-a-pull-request","status":"422"
+[2026-03-10 10:25:29] SUCCESS: Existing PR Review #12 created/updated. URL: https://github.com/aqiiliqmaldiy/Random/pull/12#pullrequestreview-3919293128
+[2026-03-10 10:25:29] PR BRANCH: Created dev/feature-set-488-1773109529 for Add pseudo-labeling strategy for test set
