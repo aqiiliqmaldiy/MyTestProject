@@ -36398,3 +36398,19 @@
   "status": "401"
 }
 [2026-03-10 12:13:46] PR BRANCH: Created dev/feature-set-3377-1773116026 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:13:50] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:13:51] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:13:51] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:13:52] PR BRANCH: Created dev/feature-set-3382-1773116032 for Optimize data loader with Dask for scalability
