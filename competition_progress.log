@@ -29530,3 +29530,14 @@
   "status": "401"
 }
 [2026-03-10 10:55:15] PR BRANCH: Created dev/feature-set-1319-1773111315 for Add pseudo-labeling strategy for test set
+[2026-03-10 10:55:18] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:55:20] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:55:20] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1321) [2026-03-10 10:55:20]
