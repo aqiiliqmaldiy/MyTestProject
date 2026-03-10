@@ -27807,3 +27807,19 @@
   "status": "401"
 }
 [2026-03-10 10:41:00] PR BRANCH: Created dev/feature-set-783-1773110460 for Add pseudo-labeling strategy for test set
+[2026-03-10 10:41:04] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:41:05] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:41:06] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:41:06] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #786) [2026-03-10 10:41:06]
