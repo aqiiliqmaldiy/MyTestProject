@@ -36749,3 +36749,14 @@
   "status": "401"
 }
 [2026-03-10 12:30:04] PR BRANCH: Created dev/feature-set-3473-1773117003 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:30:07] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:08] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:30:08] COMMIT: Optimized feature engineering logic for time-series (Sprint Pulse #3475) [2026-03-10 12:30:08]
