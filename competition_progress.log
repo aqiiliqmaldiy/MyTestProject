@@ -20837,3 +20837,14 @@
   "status": "401"
 }
 [2026-03-10 08:31:21] PR BRANCH: Created dev/feature-set-13-1773102681 for Advanced Feature Engineering Pipeline
+[2026-03-10 08:31:24] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 08:31:25] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 08:31:26] PR BRANCH: Created dev/feature-set-15-1773102686 for Advanced Feature Engineering Pipeline
