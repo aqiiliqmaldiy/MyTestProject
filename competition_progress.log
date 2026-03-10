@@ -35390,3 +35390,10 @@
   "status": "401"
 }
 [2026-03-10 12:02:42] PR BRANCH: Created dev/feature-set-3060-1773115362 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 12:02:45] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 12:02:55] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:02:56] PR BRANCH: Created dev/feature-set-3062-1773115375 for Advanced Feature Engineering Pipeline
