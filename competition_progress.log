@@ -39067,3 +39067,14 @@
   "status": "401"
 }
 [2026-03-10 12:59:51] PR BRANCH: Created dev/feature-set-4170-1773118791 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:59:54] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:59:55] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:59:55] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #4172) [2026-03-10 12:59:55]
