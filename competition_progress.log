@@ -35975,3 +35975,19 @@
   "status": "401"
 }
 [2026-03-10 12:08:51] PR BRANCH: Created dev/feature-set-3233-1773115731 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:08:57] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:08:57] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:08:58] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:09:00] PR BRANCH: Created dev/feature-set-3239-1773115740 for Implementing TTA (Test Time Augmentation)
