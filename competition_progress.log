@@ -25154,3 +25154,19 @@
 }
 [2026-03-10 09:21:08] PR BRANCH: Created dev/feature-set-40-1773105668 for Advanced Feature Engineering Pipeline
 [2026-03-10 09:21:09] PR BRANCH: Created dev/feature-set-451-1773105668 for Implementing TTA (Test Time Augmentation)
+[2026-03-10 09:21:10] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:21:11] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:21:11] PR BRANCH: Created dev/feature-set-1037-1773105671 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-10 09:21:11] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
