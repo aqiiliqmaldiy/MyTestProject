@@ -36065,3 +36065,9 @@
 }
 [2026-03-10 12:09:58] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #3265) [2026-03-10 12:09:58]
 [2026-03-10 12:10:00] PR BRANCH: Created dev/feature-set-3266-1773115800 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:10:03] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:10:03] COMMIT: Cleaned up outliers in training set (Sprint Pulse #3267) [2026-03-10 12:10:03]
