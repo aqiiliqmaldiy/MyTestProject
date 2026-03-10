@@ -24484,3 +24484,14 @@
   "status": "401"
 }
 [2026-03-10 09:18:15] PR BRANCH: Created dev/feature-set-950-1773105495 for Advanced Feature Engineering Pipeline
+[2026-03-10 09:18:16] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:18:17] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 09:18:18] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #375) [2026-03-10 09:18:18]
