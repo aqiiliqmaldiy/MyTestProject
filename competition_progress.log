@@ -35717,3 +35717,14 @@
 }
 [2026-03-10 12:06:19] UNEXPECTED ERROR: [Errno 22] Invalid argument
 [2026-03-10 12:06:29] PR BRANCH: Created dev/feature-set-3164-1773115589 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:06:32] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:06:34] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:06:35] PR BRANCH: Created dev/feature-set-3169-1773115594 for Implementing TTA (Test Time Augmentation)
