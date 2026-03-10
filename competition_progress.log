@@ -35831,3 +35831,14 @@
 }
 [2026-03-10 12:07:21] UNEXPECTED ERROR: [Errno 22] Invalid argument
 [2026-03-10 12:07:32] PR BRANCH: Created dev/feature-set-3196-1773115651 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:07:35] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:07:36] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:07:36] PR BRANCH: Created dev/feature-set-3199-1773115656 for Add pseudo-labeling strategy for test set
