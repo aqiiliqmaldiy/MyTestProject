@@ -28500,3 +28500,14 @@
   "status": "401"
 }
 [2026-03-10 10:46:38] PR BRANCH: Created dev/feature-set-989-1773110798 for Advanced Feature Engineering Pipeline
+[2026-03-10 10:46:41] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:46:42] ERROR: Issue: Optimization: Parallelize preprocessing pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:46:42] PR BRANCH: Created dev/feature-set-991-1773110802 for Add pseudo-labeling strategy for test set
