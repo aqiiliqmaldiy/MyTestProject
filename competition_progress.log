@@ -34275,3 +34275,15 @@
   "status": "401"
 }
 [2026-03-10 11:52:24] PR BRANCH: Created dev/feature-set-2734-1773114744 for Add pseudo-labeling strategy for test set
+[2026-03-10 11:52:27] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:52:27] UNEXPECTED ERROR: [Errno 22] Invalid argument
+[2026-03-10 11:52:38] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:52:38] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #2738) [2026-03-10 11:52:38]
