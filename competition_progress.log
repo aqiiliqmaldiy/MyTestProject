@@ -34994,3 +34994,19 @@
   "status": "401"
 }
 [2026-03-10 11:58:53] PR BRANCH: Created dev/feature-set-2942-1773115133 for Add pseudo-labeling strategy for test set
+[2026-03-10 11:58:56] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:58:57] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:58:58] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:58:59] PR BRANCH: Created dev/feature-set-2947-1773115139 for Ensemble Model: XGBoost + LightGBM + CatBoost
