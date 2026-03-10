@@ -38527,3 +38527,9 @@
   "status": "401"
 }
 [2026-03-10 12:53:47] PR BRANCH: Created dev/feature-set-3997-1773118426 for Advanced Feature Engineering Pipeline
+[2026-03-10 12:53:50] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:53:50] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #3998) [2026-03-10 12:53:50]
