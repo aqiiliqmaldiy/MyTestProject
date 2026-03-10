@@ -27422,3 +27422,19 @@
   "status": "401"
 }
 [2026-03-10 10:37:27] PR BRANCH: Created dev/feature-set-671-1773110246 for Add pseudo-labeling strategy for test set
+[2026-03-10 10:37:31] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:37:32] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:37:35] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 10:37:35] PR BRANCH: Created dev/feature-set-676-1773110255 for Add pseudo-labeling strategy for test set
