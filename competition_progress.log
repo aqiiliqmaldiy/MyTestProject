@@ -33608,3 +33608,14 @@
 }
 [2026-03-10 11:34:55] UNEXPECTED ERROR: [Errno 22] Invalid argument
 [2026-03-10 11:35:05] PR BRANCH: Created dev/feature-set-2542-1773113705 for Advanced Feature Engineering Pipeline
+[2026-03-10 11:35:08] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:35:09] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 11:35:10] PR BRANCH: Created dev/feature-set-2545-1773113710 for Add pseudo-labeling strategy for test set
