@@ -35437,3 +35437,24 @@
   "status": "401"
 }
 [2026-03-10 12:03:15] PR BRANCH: Created dev/feature-set-3075-1773115394 for Add pseudo-labeling strategy for test set
+[2026-03-10 12:03:18] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:03:18] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:03:20] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:03:21] ERROR: Issue: EDA: In-depth analysis of class imbalance failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-10 12:03:21] PR BRANCH: Created dev/feature-set-3082-1773115401 for Ensemble Model: XGBoost + LightGBM + CatBoost
