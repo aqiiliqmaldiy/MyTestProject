@@ -1446,3 +1446,14 @@
   "status": "401"
 }
 [2026-03-11 10:38:15] PR BRANCH: Created dev/feature-set-176-1773196695 for Implementing TTA (Test Time Augmentation)
+[2026-03-11 10:38:19] ERROR: PR: Implementing TTA (Test Time Augmentation) failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 10:38:35] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 10:38:43] PR BRANCH: Created dev/feature-set-178-1773196723 for Implementing TTA (Test Time Augmentation)
