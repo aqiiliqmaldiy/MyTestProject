@@ -43193,3 +43193,14 @@
   "status": "401"
 }
 [2026-03-11 09:00:55] PR BRANCH: Created dev/feature-set-1125-1773190854 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:00:59] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:01:18] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:01:18] PR BRANCH: Created dev/feature-set-1129-1773190878 for Optimize data loader with Dask for scalability
