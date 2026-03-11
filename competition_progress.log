@@ -40109,3 +40109,14 @@
 }
 [2026-03-11 08:27:57] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #212) [2026-03-11 08:27:57]
 [2026-03-11 08:28:01] PR BRANCH: Created dev/feature-set-214-1773188881 for Ensemble Model: XGBoost + LightGBM + CatBoost
+[2026-03-11 08:28:05] ERROR: PR: Ensemble Model: XGBoost + LightGBM + CatBoost failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:28:09] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:28:09] COMMIT: Cleaned up outliers in training set (Sprint Pulse #217) [2026-03-11 08:28:09]
