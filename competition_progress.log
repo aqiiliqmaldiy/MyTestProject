@@ -1911,3 +1911,14 @@
   "status": "401"
 }
 [2026-03-11 11:09:37] PR BRANCH: Created dev/feature-set-337-1773198577 for Advanced Feature Engineering Pipeline
+[2026-03-11 11:09:40] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 11:09:51] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 11:09:56] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #339) [2026-03-11 11:09:56]
