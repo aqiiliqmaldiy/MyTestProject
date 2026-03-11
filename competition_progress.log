@@ -3822,3 +3822,14 @@
 }
 [2026-03-11 13:20:07] COMMIT: Cleaned up outliers in training set (Sprint Pulse #974) [2026-03-11 13:20:07]
 [2026-03-11 13:20:24] COMMIT: Updated submission script for test set predictions (Sprint Pulse #975) [2026-03-11 13:20:24]
+[2026-03-11 13:20:41] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:20:56] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 13:21:15] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #979) [2026-03-11 13:21:15]
