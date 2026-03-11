@@ -4313,3 +4313,9 @@
   "status": "401"
 }
 [2026-03-11 14:22:28] COMMIT: Implemented early stopping for neural network baseline (Sprint Pulse #1139) [2026-03-11 14:22:28]
+[2026-03-11 14:22:36] ERROR: Issue: Evaluation: Robustness check on 'noisy' features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 14:22:45] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1141) [2026-03-11 14:22:45]
