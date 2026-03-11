@@ -41955,3 +41955,9 @@
   "status": "401"
 }
 [2026-03-11 08:45:48] COMMIT: Cleaned up outliers in training set (Sprint Pulse #754) [2026-03-11 08:45:48]
+[2026-03-11 08:45:51] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:45:51] PR BRANCH: Created dev/feature-set-756-1773189951 for Add pseudo-labeling strategy for test set
