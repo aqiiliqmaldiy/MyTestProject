@@ -44727,3 +44727,9 @@
 }
 [2026-03-11 09:19:32] COMMIT: Refactored data loading for memory efficiency (Sprint Pulse #1587) [2026-03-11 09:19:32]
 [2026-03-11 09:19:36] PR BRANCH: Created dev/feature-set-1589-1773191976 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:19:40] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:19:40] COMMIT: Refined hyperparameter grid for XGBoost (Sprint Pulse #1590) [2026-03-11 09:19:40]
