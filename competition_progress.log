@@ -43540,3 +43540,9 @@
   "status": "401"
 }
 [2026-03-11 09:05:11] PR BRANCH: Created dev/feature-set-1233-1773191111 for Add pseudo-labeling strategy for test set
+[2026-03-11 09:05:15] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:05:16] PR BRANCH: Created dev/feature-set-1234-1773191115 for Ensemble Model: XGBoost + LightGBM + CatBoost
