@@ -39745,3 +39745,9 @@
   "status": "401"
 }
 [2026-03-11 08:23:25] COMMIT: Cleaned up outliers in training set (Sprint Pulse #102) [2026-03-11 08:23:25]
+[2026-03-11 08:23:30] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:23:30] COMMIT: Fixed minor bug in custom loss function (Sprint Pulse #104) [2026-03-11 08:23:30]
