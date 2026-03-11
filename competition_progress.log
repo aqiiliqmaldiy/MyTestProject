@@ -41982,3 +41982,14 @@
   "status": "401"
 }
 [2026-03-11 08:46:05] PR BRANCH: Created dev/feature-set-765-1773189965 for Add pseudo-labeling strategy for test set
+[2026-03-11 08:46:09] ERROR: PR: Add pseudo-labeling strategy for test set failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:46:11] ERROR: Issue: Validation Gap: Discrepancy between local CV and leaderboard failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:46:12] COMMIT: Integrated Optuna for hyperparameter optimization (Sprint Pulse #769) [2026-03-11 08:46:12]
