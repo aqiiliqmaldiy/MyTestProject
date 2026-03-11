@@ -40310,3 +40310,9 @@
   "status": "401"
 }
 [2026-03-11 08:30:03] PR BRANCH: Created dev/feature-set-277-1773189003 for Advanced Feature Engineering Pipeline
+[2026-03-11 08:30:06] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 08:30:07] PR BRANCH: Created dev/feature-set-278-1773189006 for Ensemble Model: XGBoost + LightGBM + CatBoost
