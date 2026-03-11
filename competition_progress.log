@@ -43958,3 +43958,9 @@
   "status": "401"
 }
 [2026-03-11 09:10:04] PR BRANCH: Created dev/feature-set-1351-1773191404 for Advanced Feature Engineering Pipeline
+[2026-03-11 09:10:09] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:10:09] PR BRANCH: Created dev/feature-set-1352-1773191409 for Optimize data loader with Dask for scalability
