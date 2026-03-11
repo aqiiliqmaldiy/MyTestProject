@@ -46284,3 +46284,19 @@
   "status": "401"
 }
 [2026-03-11 09:33:48] COMMIT: Added logging for validation metrics (Sprint Pulse #118) [2026-03-11 09:33:48]
+[2026-03-11 09:33:48] ERROR: PR: Advanced Feature Engineering Pipeline failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:33:50] ERROR: Issue: Model Selection: Try TabNet for categorical features failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:33:50] ERROR: Issue: Feature Request: Add interaction terms failed with status 401. Response: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+}
+[2026-03-11 09:33:51] PR BRANCH: Created dev/feature-set-119-1773192831 for Add pseudo-labeling strategy for test set
